@@ -6,7 +6,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		System.out.println("我的机器可用Processor数量:" + Runtime.getRuntime().availableProcessors());
-		Master master = new Master(new MyWorker(), 4);
+		Master master = new Master(new MyWorker(), 16);
 		Random r = new Random();
 		for (int i = 1; i <= 1000; i++) {
 			Task t = new Task();
