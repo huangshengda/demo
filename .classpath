@@ -19,5 +19,6 @@
 	<classpathentry kind="lib" path="D:/maven/derepo/org/springframework/amqp/spring-rabbit/1.6.5.RELEASE/spring-rabbit-1.6.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="D:/maven/derepo/org/springframework/spring-messaging/4.2.8.RELEASE/spring-messaging-4.2.8.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/disruptor-3.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/sigar.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
