@@ -1,4 +1,4 @@
-package com.hsd.socket.delimiterbased;
+package com.hsd.socket.netty.delimiterbased;
 
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;

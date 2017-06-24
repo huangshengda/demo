@@ -1,4 +1,4 @@
-package com.hsd.socket.helloworld;
+package com.hsd.socket.netty.helloworld;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.buffer.Unpooled;
@@ -9,7 +9,7 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 
-public class Client2 {
+public class Client {
 
 	public static void main(String[] args) throws Exception {
 
@@ -29,7 +29,7 @@ public class Client2 {
 		cf1.channel().writeAndFlush(Unpooled.copiedBuffer("777".getBytes()));
 		cf1.channel().writeAndFlush(Unpooled.copiedBuffer("666".getBytes()));
 		// cf2.channel().writeAndFlush(Unpooled.copiedBuffer("888".getBytes()));
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		cf1.channel().writeAndFlush(Unpooled.copiedBuffer("888".getBytes()));
 		// cf2.channel().writeAndFlush(Unpooled.copiedBuffer("666".getBytes()));
 

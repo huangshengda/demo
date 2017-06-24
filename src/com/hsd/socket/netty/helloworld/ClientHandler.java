@@ -1,4 +1,4 @@
-package com.hsd.socket.helloworld;
+package com.hsd.socket.netty.helloworld;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerAdapter;

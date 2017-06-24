@@ -1,4 +1,4 @@
-package com.hsd.socket.delimiterbased;
+package com.hsd.socket.netty.delimiterbased;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.ByteBuf;

@@ -1,4 +1,4 @@
-package com.hsd.socket.helloworld;
+package com.hsd.socket.netty.helloworld;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
