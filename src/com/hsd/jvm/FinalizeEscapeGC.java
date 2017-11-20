@@ -51,5 +51,6 @@ public class FinalizeEscapeGC {
 		} else {
 			System.out.println("no, dead");
 		}
+		Thread.sleep(Integer.MAX_VALUE);
 	}
 }
